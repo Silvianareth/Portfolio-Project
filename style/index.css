@@ -1,0 +1,93 @@
+
+body{
+    background-color: #FACCDB;
+    font-family: "Jersey 10", sans-serif;
+}
+
+
+#top-page {
+    background-color: #FACCDB;
+    margin-top: 0.9rem;
+    padding-top: 1rem;
+    font-family: "Jersey 10", sans-serif;
+    text-align: center;
+    line-height: 1;
+
+   
+}
+ #container {
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/231/original/portfolio_index_wallpaper.jpeg?1713997314"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 15rem;
+    background-position: center center;
+    border-bottom: 1px solid #E5AEC7;
+    
+  
+}
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        background-color: #FACCDB;
+       
+    }
+}    
+@media (max-width: 768px) {
+    #background {
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/231/original/portfolio_index_wallpaper.jpeg?1713997314"); 
+        background-size: cover;
+        background-position-y: center;
+        background-repeat: no-repeat;
+       
+        background-position: center center;
+    
+    
+    }
+    
+    #top-page {
+        background-color: #FACCDB;
+    }
+   
+   
+       
+    
+
+        
+}
+
+.navbar > .container-fluid,
+.navbar > .container,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
+  font-family: "Jersey 10", sans-serif;
+}
+.container-fluid {
+   background-color: #E5AEC7;
+    padding: 0.3rem;
+    top: 0px;
+    box-shadow: 0 0px 50px #bf8ba2;
+}
+
+.navbar-toggler-icon {
+   
+    background-color:#FACCDB;
+}
+ .navbar-toggler {
+    margin-top: 2px;
+    background-color:#FACCDB;
+    box-shadow: 0 10px 15px #bf8ba2;
+    border-color: #bf8ba2;
+    
+ }
+
