@@ -7,8 +7,8 @@ body{
 
 #top-page {
     background-color: #FACCDB;
-    margin-top: 0.9rem;
-    padding-top: 1rem;
+    margin-top: 2rem;
+    padding-top: 10px;
     font-family: "Jersey 10", sans-serif;
     text-align: center;
     line-height: 1;
@@ -19,9 +19,9 @@ body{
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/231/original/portfolio_index_wallpaper.jpeg?1713997314"); 
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 15rem;
+    padding: 11rem;
     background-position: center center;
-   
+    margin-bottom: 3rem;
 
     
   
@@ -41,7 +41,7 @@ body{
     text-align: right;
     font-size: 24px;
     margin: 10px;
-
+    position: top left;
 }
 
 .btn-icon, .btn, #btn-2 {
@@ -65,18 +65,69 @@ button :hover{
     transition: ease-in-out 0.05s;
 }
 
+p {
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+  }
 
+#box-image {
+    background:#E0B8D0;
+    border-radius: 10px;
+  
+    border-left: 3rem solid #E0B8D0;
+    border-right: 3rem solid #E0B8D0;
+    vertical-align: auto;
+  }
 
+.btn-app {
+    background-color: #caa9c889;
+    border-color: #bf8ba2;
+    border-radius: 15px;
+    width: 170px;
+    padding: 10px;
+    color:#bf8ba2;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 16px;
+    
+    margin:auto;
+    box-shadow: 0 15px 15px #caa9c8;
 
+}
+
+.btn-app:hover {
+    background-color: #e0b8d040;
+    border-color: #caa9c8;
+    color:#bf8ba2;
+    cursor: pointer;
+    transition: ease-in-out 0.05s;
+}
+
+.mb-3 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline dashed #bf8ba2;
+}
+
+#cont-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+footer {
+    padding-bottom: 1rem;
+}    
 
 
 @media (max-width: 768px) {
     body {
         background-color: #FACCDB;
-       
     }
-}    
-@media (max-width: 768px) {
+       
+
     #background {
         background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/231/original/portfolio_index_wallpaper.jpeg?1713997314"); 
         background-size: cover;
@@ -92,10 +143,20 @@ button :hover{
         background-color: #FACCDB;
     }
    
-   
-       
-    
+    .col-6, .text-center{
+       text-align: center; 
+    }
 
+  
+    
+    #container {
+        margin-top: 0 auto;
+    }    
+    
+    #top-page {
+        margin-bottom: 0px;
+        padding: 0px;
+    }    
         
 }
 
