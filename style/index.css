@@ -42,6 +42,7 @@ body{
     font-size: 24px;
     margin: 10px;
     position: top left;
+    box-shadow: 0 15px 15px #ba7996;
 }
 
 .btn-icon, .btn, #btn-2 {
@@ -172,7 +173,9 @@ footer {
   justify-content: space-between;
   top: 0px;
   width: 100%;
-  font-family: "Jersey 10", sans-serif;
+  font: 1.5em "Jersey 10", sans-serif;
+  text-align: space-between;
+  padding: 1rem;
 }
 .container-fluid {
    background-color: #E5AEC7;
@@ -192,4 +195,6 @@ footer {
     border-color: #bf8ba2;
     
  }
+
+
 

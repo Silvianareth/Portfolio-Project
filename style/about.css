@@ -1,0 +1,92 @@
+:root {
+    --primary-color: rgb(15, 65, 119);
+    --secondary-color: rgb(170, 242, 255);
+    --box-shadow: 0 10px 15px hsl(207, 88%, 30%);
+  }
+
+  body {
+    background-color: #021D38;
+    background-image: url("/img/my\ neighbor\ alice.jpeg"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    background-position: center center;
+    margin-bottom: 3rem;
+    font-family: "Jersey 10", sans-serif;
+    color: var(--secondary-color);
+    text-align: center;
+  }
+  .header {
+    margin-top: 60px;
+    margin-bottom: 8rem;
+    line-height: 7px;
+  }
+  
+ 
+  footer {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-size: 28px;
+    line-height: 25px;
+    padding-top: 1rem;
+  }
+  .email-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+  }
+
+  .email-link:hover {
+    color: #9379D0;
+    text-decoration: underline;
+  }
+  
+ 
+  
+  #col-4 {
+    display: grid;
+    justify-content: space-between;
+    margin-inline: 1rem;
+    height: auto;
+  }
+  
+  .navbar-brand {
+    margin-left: 10px;
+  }  
+  
+  #navbarOffcanvasLg {
+    background-color: #a492cef2;
+    
+    margin: 0 auto;
+    font: 1.5em "Jersey 10", sans-serif;
+    
+  }
+
+.container-fluid {
+    
+  padding: 0.3rem;
+  top: 0px;
+
+ }
+ 
+ .navbar-toggler-icon {
+     background-color:#9379D0;
+ }
+  .navbar-toggler {
+     margin-top: 2px;
+     background-color: #9379D0;
+     box-shadow: 0 10px 15px hsl(274, 29%, 47%);
+     border-color: #9379D0;
+     margin-right: 10px;
+  }
+ 
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+  }
+  
+ 
+  
+ 
