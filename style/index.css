@@ -27,7 +27,7 @@ body{
   
 }
 
-.btn-icon, .btn, #btn-1 {
+.btn, #btn-1 {
     background-color: #caa9c889;
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/959/original/tsunadeicon.png?1714457472") ;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body{
     box-shadow: 0 15px 15px #ba7996;
 }
 
-.btn-icon, .btn, #btn-2 {
+#btn-2 {
     background-color: #caa9c889;
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/958/original/download_%281%29.png?1714457444") ;
     background-size: 40px;
@@ -175,7 +175,7 @@ footer {
   width: 100%;
   font: 1.5em "Jersey 10", sans-serif;
   text-align: space-between;
-  padding: 1rem;
+  padding: 0.3rem;
 }
 .container-fluid {
    background-color: #E5AEC7;
