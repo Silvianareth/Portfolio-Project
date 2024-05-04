@@ -120,44 +120,6 @@ p {
 
 footer {
     padding-bottom: 1rem;
-}    
-
-
-@media (max-width: 576px) {
-    body {
-        background-color: #FACCDB;
-    }
-       
-
-    #background {
-        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/231/original/portfolio_index_wallpaper.jpeg?1713997314"); 
-        max-width: 100% ;
-        background-repeat: no-repeat;
-        margin: 0;
-        height: auto;
-    
-    
-    }
-    
-    #top-page {
-        background-color: #FACCDB;
-    }
-   
-    .col-6, .text-center{
-       text-align: center; 
-    }
-
-  
-    
-    #container {
-        margin-top: 0 auto;
-    }    
-    
-    #top-page {
-        margin-bottom: 0px;
-        padding: 0px;
-    }    
-        
 }
 
 .navbar > .container-fluid,
