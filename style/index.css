@@ -131,11 +131,10 @@ footer {
 
     #background {
         background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/231/original/portfolio_index_wallpaper.jpeg?1713997314"); 
-        background-size: cover;
-        background-position-y: center;
+        max-width: 100% ;
         background-repeat: no-repeat;
         margin: 0;
-        background-position: center center;
+        height: auto;
     
     
     }
