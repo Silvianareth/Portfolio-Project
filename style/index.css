@@ -19,10 +19,10 @@ body{
     background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/231/original/portfolio_index_wallpaper.jpeg?1713997314"); 
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 15rem;
+    max-width: 100%;
     background-position: center center;
     margin-bottom: 3rem;
-
+    height: auto;
     
   
 }
